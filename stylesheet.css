@@ -73,6 +73,17 @@
     text-align: center;
     padding-top: 5vh;
 }
+.subfooter{
+    height: 50vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  .binary{
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      color: aliceblue;
+  }
 @keyframes typing {
     from {
     width: 0
