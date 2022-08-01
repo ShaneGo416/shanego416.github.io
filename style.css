@@ -1,0 +1,75 @@
+
+
+body {
+    background: url(pw_images/background03.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: 'monospace', 'Courier New', Courier;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-style: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 15ch;
+    animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+
+.tagline {
+    font-style: italic;
+    padding-top: 0px;
+    text-align: center;
+}
+
+h2, p {
+    text-align: left;
+    color: whitesmoke;
+  }
+
+.p1 .p2 {
+    font-size: 28px;
+}
+
+.content {
+    width: 80%;
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 10px 20px;
+    max-width: 700px;
+    border-radius: 5%;
+  }
+
+.social {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.binary {
+    color: rgba(whitesmoke, 0.5);
+    padding-top: 20px;
+    text-align: center;
+}
+
+@keyframes typing {
+    from {
+    width: 0
+  }
+}  
+@keyframes blink {
+    50% {
+    border-color: transparent
+  }
+}
