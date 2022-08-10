@@ -65,6 +65,7 @@ h2, p {
     color: rgba(whitesmoke, 0.5);
     padding-top: 20px;
     text-align: center;
+    text-decoration: none;
 }
 
 @keyframes typing {
