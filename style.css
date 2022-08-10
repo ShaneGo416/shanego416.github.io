@@ -1,11 +1,25 @@
+html, body {
+    margin: none;
+    height: 100%;
 
+}
 
 body {
     background: url(pw_images/background03.jpg);
     background-repeat: repeat-y;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'monospace', 'Courier New', Courier;
 }
+
+.content {
+    width: 80%;
+    background-color: rgba(0,0,0,0.8);
+    margin: 100px auto auto  auto;
+    padding: 20px 20px 10px 20px;
+    max-width: 700px;
+    border-radius: 5%;
+  }
 
 .wrapper {
     display: grid;
@@ -18,8 +32,8 @@ h1 {
     font-style: none;
     margin-top: 20px;
     margin-bottom: 5px;
-    width: 15ch;
-    animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+    width: 14ch;
+    animation: typing 2s steps(14), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -30,6 +44,7 @@ h1 {
     font-style: italic;
     padding-top: 0px;
     text-align: center;
+    margin: 0 0 0 0;
 }
 
 h2, p {
@@ -37,24 +52,13 @@ h2, p {
     color: whitesmoke;
   }
 
-.p1 .p2 {
+.p1 .p2 .p3 {
     font-size: 28px;
 }
 
-.content {
-    width: 80%;
-    background-color: rgba(0,0,0,0.8);
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 20px 10px 20px;
-    max-width: 700px;
-    border-radius: 5%;
-  }
-
 .social {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .binary {
