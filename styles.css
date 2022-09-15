@@ -1,7 +1,5 @@
 html, body {
-    margin: none;
     height: 100%;
-
 }
 
 body {
@@ -25,7 +23,6 @@ body {
     place-items: center;
 }
 
-
 .name {
     color: whitesmoke;
     font-style: none;
@@ -40,8 +37,9 @@ body {
 
 .feature {
     width: 80%;
+    position: relative;
+    margin: 50px auto;
     background-color: rgba(0,0,0,0.8);
-    margin: 50px auto 50px  auto;
     padding: 20px 20px 20px 20px;
     max-width: 700px;
 }
@@ -80,19 +78,34 @@ h2, p {
     padding-top: 25px;
 }
 
-.feature_links {
-    text-align: center;
-    padding-top: 25px;
-    color: whitesmoke;
-    text-decoration: none!important;
+.feature_github {
+    width: 40px;
+    height: 40px;
+
 }
 
+.feature_links {
+    display:grid;
+    place-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    }
 
 @keyframes typing {
     from {
     width: 0
   }
-}  
+}
+
 @keyframes blink {
     50% {
     border-color: transparent
