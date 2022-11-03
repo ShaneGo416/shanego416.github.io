@@ -1,87 +1,193 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Shane Gouldson</title>
-        <link href="styles.css" rel="stylesheet"/>
-    </head>
-    <body class="body">
-        <div class="content">
-            <div class="wrapper">
-                <h1 class="name">Shane Gouldson</h1>
-            </div>
-            <p class="tagline">Software Developer</p>
-            <h2>Hi there!</h2>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shane Gouldson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+</head>
 
-            <section >
-                <article>
-                    <p class="p1">
-                        I'm Shane,
-                        part-time web developer and <b>former chef</b>.
-                    </p>
-                </article>
-                <article>
-                    <p class="p2">
-                        I am currently studying <b>computer science</b> the traditional way,
-                        through College programs at night and on weekends, 
-                        as well as using online resources to self teach and continue learning
-                        to better my skills as a <b>full-stack developer</b>. 
-                   </p>
-                </article>
-                <article>
-                    <p class="p3">
-                        Soon this page will be filled with robust projects but until then, 
-                        you can find the links to my 
-                        projects and progress below.
-                        Feel free to reach out on any of these platforms 
-                        if you’d like to get in touch!
-                    </p>
-                </article>
-            </section>
+<body>
 
-            <div class= "social">
-                <a href="https://ca.linkedin.com/in/shane-gouldson" style="text-decoration: none;">  
-                    <img class="linkedin" style="padding: 0px 0px 0px 0vw;"  src="pw_images/linkedin.svg" alt="linkedin link" width="40" height="40">
-                </a>
+    <!-- START NAV -->
 
-                <a href="https://mobile.twitter.com/shanego416" style="text-decoration: none;">
-                    <img class="twitter" style="padding: 0px 0px 0px 1vw;"  src="pw_images/twitter.svg" alt="twitter link" width="40" height="40">
-                </a>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-                <a href="https://github.com/shanego416" style="text-decoration: none;">
-                    <img class="github" style="padding: 0px 0px 0px 1vw;" src="pw_images/github.svg" alt="github link" width="40" height="40"> 
-                </a>
-            </div>
+    <!-- END NAV -->
+
+    <!--START ABOUT-->
+
+    <section id="about" class="about-section">
+        <h2 class="name">Shane Gouldson</h2>
+        <p class="tagline">software developer</p>
+    </section>
+
+    <!--END ABOUT-->
+
+    <!--START PROJECTS-->
+
+    <section id="projects" class="projects-section"> 
+        <h2 class="projects-section-header">Recent web projects</h2>
+
+        <div class="projects-grid">
+
+            <a
+                href="https://shanego416.github.io/Landing_page/"    
+                class="project project-title"
+            >
+                <img
+                    class="project-image"
+                    src="images/landing_page.png"
+                    alt="project"
+                />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Landing Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+
+            <a
+                href="https://shanego416.github.io/Tribute_page/"
+                class="project project-title"
+            >
+                <img
+                    class="project-image"
+                    src="images/tribute_page.png"
+                    alt="project"
+                />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Tribute Page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+            
+            <a
+                href="https://shanego416.github.io/Cafe_menu/"
+                class="project project-title"
+            >
+                <img
+                    class="project-image"
+                    src="/images/cafe_menu.png"
+                    alt="project"
+                />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Cafe Menu
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+
+            <a
+                href="https://shanego416.github.io/Flexbox_photo_gallery/"
+                class="project project-title"
+              >
+                <img
+                    class="project-image"
+                    src="/images/flexbox_photo_gallery.png"
+                    alt="project"
+                />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Flexbox Photo Gallery
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+
+            <a
+                href="https://shanego416.github.io/CSS_nutrition_label/"
+                class="project project-title"
+            >
+                <img
+                    class="project-image"
+                    src="/images/CSS_nutrition_label.png"
+                    alt="project"
+                />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Nutrition Label
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+
+            <a
+                href="https://shanego416.github.io/Js_doc_page/"
+                class="project project-title"
+            >
+                <img
+                    class="project-image"
+                    src="images/js_preview.png"
+                    alt="JavaScript documentation page project"
+                />
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    JavaScript DOC page
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a>
+
         </div>
+    </section>
 
-        <div class="feature">
-            <h1 class="feature_title">Featured Project</h1>
-            <p class="tagline">This is a project that I'm currently working on 
-                or have recently completed.
-            </p>
-            <h2>JavaScript documentation web app:</h2>
-            <img class="preview_img" src="pw_images/js_preview.png" alt="Screen shot of project">
-            <div class="feature_links">
-                <div class="f_link1">
-                    <p>
-                        <a href="https://github.com/shanego416/Js_doc_page">View The Code</a>
-                    </p>
-                    <a href="https://github.com/shanego416/Js_doc_page">
-                        <img class="feature_png" src="pw_images/view_code.png" alt="Link to featured project">
-                    </a>
-                </div>
-                <div class="f_link2">
-                    <p>
-                        <a href="feature.html">View The Project</a>
-                    </p>
-                    <a href="feature.html">
-                        <img class="feature_png" src="pw_images/view_page.png" alt="Link to featured project">
-                    </a>
-                </div>
-            </div>
+    <!--END PROJECTS-->
+    
+    <!--START CONTACT-->
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Get in touch!</h2>
+            <p><i>Click or tap below to connect.</i></p>
         </div>
-    </body>
+        <div class="contact-links">
+            <a
+                href="https://www.linkedin.com/in/shane-gouldson/"
+                class="btn contact-details">
+                Linkedin
+            </a>
+            <a
+                href="https://github.com/shanego416"
+                class="btn contact-details">
+                GitHub
+            </a>
+            <a
+                href="https://twitter.com/shanego416"
+                class="btn contact-details">
+                Twitter
+            </a>
+            
+        </div>
+    </section>
+
+    <!--END CONTACT-->
+
+    <!--START FOOTER-->
+
+    <footer>
+        <p>
+          <i>Shane Gouldson 2022</i>
+        </p>
+      </footer>
+      
+    <!--END FOOTER-->
+
+</body>
+
 </html>
